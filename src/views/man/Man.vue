@@ -57,7 +57,7 @@
 		methods:{
 			loadData(){
 				getHomeMultData().then(res =>{
-					this.homeCloses =  res.data.homecloses;
+					this.homeCloses =  res.data.mancloses;
 				}).catch(error=>{
 
 				})
@@ -99,7 +99,7 @@
 
 	@media (min-width: 992px) {
 		.container {
-			width: 1400px !important;
+			width: 1250px !important;
 		}
 		.flex {
 			display: flex;

@@ -111,7 +111,7 @@ import News from "../../components/news"
     methods:{
     	loadData(){
     		getHomeMultData().then(res =>{
-    			this.homeCloses =  res.data.mancloses;
+    			this.homeCloses =  res.data.homecloses;
 			}).catch(error=>{
 
 			})
@@ -148,7 +148,7 @@ import News from "../../components/news"
 
 	@media (min-width: 992px) {
 		.container {
-			width: 1400px !important;
+			width: 1250px !important;
 		}
 		.flex {
 			display: flex;
